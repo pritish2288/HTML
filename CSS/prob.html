@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        #navbar{
+            height:100px;
+            display:flex;
+            justify-content:space-between;
+            border:2px solid black;
+            align-items:center;
+            background-color:black;
+        }
+        #links{
+            display:flex;
+            width:30%;
+            border:1px solid violet;
+            justify-content:space-between;
+            color:white;
+            font-size:10px;
+            text-transform:uppercase; 
+        }
+        #links>p:hover{
+            color:red;
+            cursor:pointer;
+        }
+        #navbar>img{
+            padding-left:40px;
+        }
+        #navbar~h1{
+            text-align:center;
+            border:2px solid violet;
+            margin-top:50px;
+        }
+        #gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            gap:30px;
+            width:80%;
+            margin:auto;
+            margin-top:40px;  
+        }
+        #gallery>img{
+            width:20%;
+            border-radius:20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <img style="height:50px"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSWmUnh99TCZJ2UmJt0-LR8hrCjX3LlauMw&usqp=CAU"
+            alt="image"/>
+        <div id="links">
+            <p>Home</p>
+            <p>About</p>
+            <p>Gallery</p>
+        </div>
+     </div>
+
+     <h1>Photo Gallery</h1>
+     <section id="gallery">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9Qod2JH67jv7w0TUNqNA5OJVLkpi3mw6rw&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9Qod2JH67jv7w0TUNqNA5OJVLkpi3mw6rw&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9Qod2JH67jv7w0TUNqNA5OJVLkpi3mw6rw&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9Qod2JH67jv7w0TUNqNA5OJVLkpi3mw6rw&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9Qod2JH67jv7w0TUNqNA5OJVLkpi3mw6rw&usqp=CAU" alt="">
+     </section>
+</body>
+</html>
+

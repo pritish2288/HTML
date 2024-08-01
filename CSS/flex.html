@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .box{
+            background-color:aqua;
+            
+            border:5px solid red;
+            display:flex;
+            flex-direction:row-reverse;
+            height:300px;
+        }
+        .box>div{
+            padding:10px;
+        }
+        .box>div:nth-child(1){
+            background-color:antiquewhite;
+        }
+        .box>div:nth-child(2){
+            background-color:yellow;
+        }
+        .box>div:nth-child(3){
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>
