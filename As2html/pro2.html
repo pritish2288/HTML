@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Detailed Feedback Form with Inline Elements</h1>
+        <div>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required/>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required/>
+        </div>
+        <br>
+        <div>
+            <label for="comments"><b>Comments:</b></label>
+            <textarea id="comments" placeholder="enter feedback here"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="rate">Please rate the service:</label>
+            <input type="range" id="rate" min="0" max="10" step="1" value="5"/>
+            <output id="rate-value">5</output>
+        </div>
+        <br>
+        <fieldset>
+            <legend><b>Select feedback type:</b></legend>
+            <div>
+                <input type="radio" id="feedbacktype" name="Feedbacktype" value="compliment">Compliment</input>
+            </div>
+            <div>
+                <input type="radio" id="feedbacktype" name="Feedbacktype" value="Complaint">Complaint</input>
+            </div>
+            <div>
+                <input type="radio" id="feedbacktype" name="Feedbacktype" value="Suggestion">Suggestion</input>
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="policy">Tick box if you agree to feedback policy:</label>
+            <input type="checkbox" id="policy" value="agree"/>
+        </div>
+        <br>
+        <ul>
+            <li>
+                <a href="#feedback-policy">Feedback Policy</a>
+            </li>
+        </ul>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <div id="feedback-policy">
+    <h2>Feedback Policy Section</h2>
+    <ul>
+        <li><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit praesentium nulla quae eveniet ex fugit iusto officiis ut, veniam culpa quis ipsa a facere ratione ab cupiditate beatae vero atque.
+        Iusto voluptatem libero, praesentium facere corrupti laudantium eos! Asperiores nam placeat deserunt libero ducimus necessitatibus sequi distinctio, provident expedita aut vel, animi minima? Quasi veritatis natus dolorum quidem, velit dolores.
+        Laudantium dolores pariatur saepe, natus autem, magni nihil animi alias, minus veritatis delectus? Quam pariatur soluta similique, temporibus quisquam, praesentium velit neque molestias totam delectus reiciendis quod in, omnis accusamus!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet tenetur perspiciatis recusandae reiciendis accusantium expedita laboriosam a voluptatem cumque vitae? Animi consequatur nostrum ipsam sint! Deserunt nostrum quas omnis repellendus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis nemo dignissimos eius possimus alias suscipit culpa nisi ipsum dolor, optio assumenda tenetur pariatur atque incidunt. Praesentium aliquid ad atque.</i></li>
+    </ul>
+    </div>
+</body>
+</html>

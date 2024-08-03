@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Product Order Form with Advanced Attributes</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="enter name" required/>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" value="xxx@gmail.com" required/>
+        </div>
+        <br>
+        <div>
+           <label for="product-select">choose product category</label>
+           <select name="product" id="product-select">
+                <option value="">choose option here</option>
+                <option value="electronics">Electronics</option>
+                <option value="books">books</option>
+                <option value="clothing">clothing</option>
+           </select>
+        </div>
+        <br>
+        <div>
+            <label for="num">Quantity of products:</label>
+            <input type="number" placeholder="enter num here" min="1" max="10" step="1"/>
+        </div>
+        <br>
+        <div>
+            <label for="dtime">Select date and time:</label>
+            <input type="datetime-local" id="dtime" min="2024-08-03T00:00"/>
+        </div>
+        <br>
+        <div>
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" rows="5" cols="30">Enter here:</textarea>
+        </div>
+        <br>
+        <div>
+            <label for="payments"><b>Choose payment options:</b></label>
+            <input type="checkbox" id="payments" name="pay" value="Credit" checked>Credit card</input>
+            <input type="checkbox" id="payments" name="pay" value="paypal">Paypal</input>
+            <input type="checkbox" id="payments" name="pay" value="bank transfer">Bank transfer</input>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        
+    </form>
+
+</body>
+</html>

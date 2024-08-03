@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Comprehensive Registration Form</h1>
+    <form>
+        <div>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" placeholder="enter full name"/>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="enter email" required/>
+        </div>
+        <br>
+        <div>
+            <label for="Password">Your Password:</label>
+            <input type="password" id="Password" placeholder="enter password" maxlength="20" required/>
+        </div>
+        <br>
+        <div>
+            <label for="ConfirmPassword">Confirm Password:</label>
+            <input type="password" id="ConfirmPassword" placeholder="confirm password" maxlength="20" required/>
+        </div>
+        <br>
+        <div>
+            <label for="Date">BirthDate:</label>
+            <input type="date" id="Date" max="2006-08-01" required/>
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender:</label>
+            <select name="Gender" id="Gender">
+                <option value="">-Choose your gender-</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Subscription">Choose your Subscription:</label>
+            <input type="radio" name="subscription" id="Subscription" value="basic">Basic</input>
+            <input type="radio" name="subscription" id="Subscription" value="medium">medium</input>
+            <input type="radio" name="subscription" id="Subscription" value="premium">premium</input>
+        </div>
+        <br>
+        <fieldset>
+            <legend>Select your hobbies</legend>
+            <div>
+                <label for="Reading">Reading</label>
+                <input type="checkbox" id="Reading" value="Reading"/>
+            </div>
+            <div>
+                <label for="Coding">Coding</label>
+                <input type="checkbox" id="Coding" value="Coding"/>
+            </div>
+            <div>
+                <label for="travelling">Travelling</label>
+                <input type="checkbox" id="travelling" value="Travelling"/>
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label for="upload">Upload picture:</label>
+            <input type="file" id="upload" accept="image/jpg,image/png" required/>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+        
+
+
+
+
+    </form>
+</body>
+</html>
